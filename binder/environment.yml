@@ -6,6 +6,7 @@ dependencies:
   - python=3.6
   - pyarrow
   - xarray
+  - gcsfs
   - dask
   - dask-kubernetes
   - distributed
