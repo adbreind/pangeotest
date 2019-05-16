@@ -13,7 +13,7 @@ spec:
     name: dask
     env:
       - name: EXTRA_PIP_PACKAGES
-        value: fastparquet git+https://github.com/dask/distributed
+        value: gcsfs fastparquet git+https://github.com/dask/distributed
     resources:
       limits:
         cpu: "1"
